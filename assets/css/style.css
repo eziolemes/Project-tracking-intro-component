@@ -17,16 +17,14 @@ a {
 	color: hsl(228, 45%, 44%);
 }
 
-header {
-	border: 1px solid black;
-}
-
 .menu {
 	float: right;
 }
 
 .menu li {
 	display: inline-block;
+	padding-right: 15px;
+	border: 1px solid blue;
 }
 
 .menu li a {
@@ -39,4 +37,19 @@ header {
 	text-decoration: underline;
 	color: white;
 	background: hsl(228, 45%, 44%);
+}
+
+.leftContent {
+	border: 1px solid green;
+	float: left;
+	width: 40%;
+}
+
+.rightContent {
+	border: 1px solid red;
+	float: right;
+}
+
+footer {
+	clear: both;
 }
