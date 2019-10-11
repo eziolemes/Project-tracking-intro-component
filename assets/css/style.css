@@ -9,12 +9,14 @@ body {
 	margin-top: 50px;
 	margin-left: 20px;
 	margin-right: 20px;
+	font-family: Arial, tahoma, sans-serif;
+	font-weight: bold;
 	/*font-size: 11px;
 	text-align: center; */
 }
 
 a { 
-	color: hsl(228, 45%, 44%);
+	color: #232943;
 }
 
 .menu {
@@ -24,32 +26,76 @@ a {
 .menu li {
 	display: inline-block;
 	padding-right: 15px;
-	border: 1px solid blue;
 }
 
 .menu li a {
 	text-decoration: none;
-	font-weight: bold;
-	font-family: Arial, tahoma, sans-serif;
 }
 
 .menu li a:hover {
 	text-decoration: underline;
 	color: white;
-	background: hsl(228, 45%, 44%);
+	background: #232943;
+}
+
+.subMenu {
+	margin-bottom: 50px;
+}
+.subMenu li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.subMenu li a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.subMenu li a.selected {
+	background: #232943;	color: white;
+	padding: 4px;
+	border-radius: 20px;
+}
+
+main {
+	margin-top: 100px;
 }
 
 .leftContent {
-	border: 1px solid green;
 	float: left;
 	width: 40%;
 }
 
+h1 {
+	color: #232943;
+}
+
+p {
+	color: gray;
+}
+
+#linha1 {
+	margin-top: 50px;
+}
+
+.btn {
+	margin-top: 50px;
+	padding: 15px;
+	color: white;
+	background: #ff5d5e;
+	border: none;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background: #ff8584;
+}
+
 .rightContent {
-	border: 1px solid red;
 	float: right;
 }
 
 footer {
 	clear: both;
+	text-align: center;
 }
